@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.container {
+  border-radius: 6%;
+  background-color: aliceblue;
+  width: 50%;
+  height: 70%;
+  box-shadow: 8px 8px 8px grey;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-large;
+}
+
+input {
+  padding: 5%;
+  background-color: rgb(179, 175, 175);
+  color: aqua;
+  border-width: 1px;
+  outline: none;
+  border-radius: 6px;
+}
+button {
+  background-color: rgb(247, 241, 241);
+  width: 110px;
+  border: 3px white solid;
+  border-radius: 8px;
+  color: black;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(255, 0, 0);
+}
+td {
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+input::placeholder {
+  padding-top: 10px;
+  color: rgb(244, 244, 250);
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-size: auto;
+  background-image: url(https://imgd.aeplcdn.com/1920x1080/n/cw/ec/56291/toyota-fortuner-left-rear-three-quarter16.jpeg?wm=1&q=80&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      
+        <h2>Login Here</h2>
+
+      <form>
+        <table>
+          <tr>
+            <td><label for="na">Name</label></td>
+            <td><input type="text" id="na" placeholder="Enter Name here" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Number</label></td>
+            <td>
+              <input type="number" id="nu" placeholder="Enter Number here" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Email</label></td>
+            <td>
+              <input type="email" id="em" placeholder="Enter Email here" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Password</label></td>
+            <td>
+              <input
+                type="password"
+                id="pa"
+                placeholder="Enter Password here"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+      </form>
+      <br />
+      <button>Login</button>
+    </div>
+  </body>
+</html>
